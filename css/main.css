@@ -1,0 +1,307 @@
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+body {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Lato', sans-serif;
+    max-width: 1500px;
+}
+
+header {
+    width: 96%;
+    background-color: white;
+    position: fixed;
+    padding-top: 20px;
+    max-width: 1500px;
+}
+
+footer {
+    width: 100%;
+    background-color: #352A53;
+    color: white;
+    padding: .15em;
+}
+
+footer p {
+    margin-left: 20px;
+}
+
+h2 {
+    background-color: #352A53;
+    color: white;
+    padding: 1%;
+    text-align: center;
+}
+
+#smedia a {
+    display: inline-block;
+}
+
+#smedia, header img {
+    display: inline-block;
+}
+
+#smedia {
+    float: right;
+    padding-top: 40px;
+    padding-right: 5%;
+}
+
+nav {
+    background-color: #352A53;
+    color: white;
+    padding: .55em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.25em;
+}
+
+nav a {
+    background-color: #352A53;
+    display: inline-block;
+    width: 20%;
+    color: white;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+#banner {
+    padding-top: 170px;
+}
+
+#acai_banner {
+    width: 100%;
+}
+
+.items {
+    text-align: center;
+    display: inline-block;
+    width: 16.25%;
+}
+
+.items img {
+    width: 100%;
+}
+
+h4, h5 {
+    display: inline-block;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+#materials article {
+    display: block;
+}
+
+#acai div {
+    width: 55%;
+    float: right;
+    padding: 2%;
+}
+
+#acai img {
+    float: left;
+    padding: 2%;
+    width: 20%;
+}
+
+#tagua, #jaboncillo {
+    background-color: #D4D4D4;
+}
+
+#tagua div {
+    width: 40%;
+    float: left;
+    padding: 2%;
+}
+
+#tagua img {
+    float: right;
+    padding: 2%;
+    width: 30%;
+}
+
+#pambil div {
+    width: 55%;
+    float: right;
+    padding: 2%;
+}
+
+#pambil img {
+    float: left;
+    padding: 2%;
+    width: 42%;
+}
+
+#jaboncillo div {
+    width: 40%;
+    float: left;
+    padding: 2%;
+}
+
+#jaboncillo img {
+    float: right;
+    padding: 2%;
+    width: 56%;
+}
+
+#coconut div {
+    width: 55%;
+    float: right;
+    padding: 2%;
+}
+
+#coconut img {
+    float: left;
+    padding: 2%;
+    width: 41%;
+}
+
+article img, article div {
+    display: inline-block;
+}
+
+br {
+    padding: 10px;
+}
+
+#artisans div {
+    width: 55%;
+    float: left;
+    padding: 2%;
+}
+
+#artisans img {
+    float: right;
+    padding-right: 2%;
+    margin-top: 5%;
+    width: 42%;
+}
+
+#colleen div {
+    width: 60%;
+    float: right;
+    padding: 2%;
+}
+
+#colleen img {
+    float: left;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 36%;
+}
+
+/* =====================================================================
+    MEDIA QUERY IPHONE
+   ========================================================================== */
+
+@media screen and (max-width: 800px){
+
+html {font-size: .75em;}
+
+header img {
+    width: 100%;
+}
+
+#banner {
+    padding-top: 205px;
+}
+
+#smedia {
+    display: none;
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    width: 100%;
+    margin-top: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.items {
+    display: block;
+    width: 100%
+}
+
+.items img {
+    width: 50%;
+}
+
+.secondpic, br {
+    display: none;
+}
+
+#acai div {
+    width: 100%;
+    display: block;
+}
+
+#acai img {
+    display: inline-block;
+    width: 45%;
+}
+
+#tagua div {
+    width: 100%;
+    display: block;
+}
+
+#tagua img {
+    display: inline-block;
+    width: 45%;
+    float: left;
+}
+
+#pambil div, #pambil img {
+    display: block;
+    width: 100%;
+}
+
+#jaboncillo div, #jaboncillo img {
+    display: block;
+    width: 100%;
+}
+
+#coconut div, #coconut img {
+    width: 100%;
+    display: block;
+}
+
+#artisans img, #artisans div, #colleen div, #colleen img {
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+}
